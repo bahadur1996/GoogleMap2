@@ -69,7 +69,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             }
             Address address=addresses.get(0);
             LatLng latLng=new LatLng(address.getLatitude(),address.getLongitude());
-            mMap.addMarker(new MarkerOptions().position(latLng).title("My Choice"));
+            mMap.addMarker(new MarkerOptions().position(latLng).title("Not a choice at all"));
 
         }
     }
